@@ -1,0 +1,53 @@
+/* #Tablet (Portrait)
+================================================== */
+/* Note: Design for a width of 768px */
+
+@media only screen and (min-width: 980px) and (max-width: 1199px) {
+
+	/* Here your style */
+	.es-nav span {
+		top: 198px;
+	}
+	.es-carousel ul li .meta .perma-link, .es-carousel ul li .meta .zoom-link {
+		top: 45%;
+		margin-top: -18px;
+	}
+	ul.clients li {
+		margin-left: 20px; 
+
+	}
+	.post-cycle .item-testimonial {
+			height: 266px;
+		}
+			.slider3 .camera_prev {
+    margin-left: -555px;
+	}
+	.slider3 .camera_next {
+	    margin-left: 504px;
+	}
+	#carousel-portfolio .es-carousel ul li {
+		width: 220px !important;
+		margin-right: 20px !important;
+	}
+	.home5 #carousel-portfolio .es-carousel ul li {
+		width: 300px !important;
+		margin-right: 20px !important;
+	}
+	.recent_works {
+		margin-left: -20px !important;
+	}
+	.recent_works li {
+		max-width: 300px !important;
+		margin-left: 20px !important;
+	}
+	.slider5 .camera_caption {
+		top: 60px;
+	}
+	.recent-posts.team{margin-left: -20px;}
+	.recent-posts.team li {width: 220px; margin-left: 20px;}
+	#slider-wrapper { 
+		min-height: 419px;
+	}
+	
+	
+}

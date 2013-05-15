@@ -1,0 +1,68 @@
+/* #Tablet (Portrait)
+================================================== */
+/* Note: Design for a width of 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+
+	/* Here your style */
+	.logo {text-align: center; margin-top: 10px;}
+	#footer .flickrImages a:nth-of-type(3n) {
+		margin-right: 20 !important;
+	}
+	#footer .flickrImages a:nth-of-type(2n) {
+		margin-right: 0;
+	}
+	.camera_caption {
+		top: 20px;
+		width: 360px;
+	}
+	.camera_caption > div {
+		width: 350px;
+	}
+	
+	.banner-block .indent {
+		text-align: center;
+	}
+	.banner-block .indent .span9, .banner-block .indent .span2 {
+		display: inline;
+		width: 100%;
+	}
+	.banner-block .btn {
+		float: none;
+		margin-top: 15px;
+	}
+	.camera_prev, .camera_next {
+		display: none;
+	}
+	.camera_wrap .camera_pag {
+		display: block;
+	}
+	#footer .flickrImages a {
+		margin-right: 20px;
+	}
+	#footer .flickrImages a:nth-of-type(2n) {
+		margin-right: 20px;
+	}
+	.post-cycle .item-testimonial {
+				height: 328px;
+	}
+	#carousel-portfolio .es-carousel ul li {
+		width: 220px !important;
+		margin-right: 20px !important;
+	}
+	.banner-home4 {
+		margin:0px 0 70px;
+	}
+	.recent_works li {
+		max-width: 345px !important;
+	}
+	.img_shadow {
+	padding: 0 19px 22px;
+}
+.recent-posts.team{margin-left: -13px;}
+	.recent-posts.team li {width: 170px; margin-left: 13px;}
+	#slider-wrapper { 
+		min-height: 300px;
+	}
+
+}

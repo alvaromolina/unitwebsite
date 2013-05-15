@@ -1,0 +1,92 @@
+/* #Mobile (Landscape)
+================================================== */
+/* Note: Design for a width of 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	/* here your style */
+	.banner-block p {
+		margin: 0 0 20px;
+	}
+	#contentload {
+		left:0px;
+	}
+	.logo {text-align: center !important;}
+	.banner-block .btn {
+		float: none;
+	}
+	.es-nav span {
+		top: 38px;
+	}
+	.es-nav span.es-nav-prev {
+		left: 100px;
+	}
+	.es-nav span.es-nav-next {
+		right: 100px;
+	}
+	#footer .post-cycle {
+		min-height: 280px;
+	}
+	.es-carousel ul li {margin-bottom: 20px; overflow: hidden;}
+	.es-carousel ul li .meta .perma-link, .es-carousel ul li .meta .zoom-link {
+		top: 45%;
+		margin-top: -18px;
+	}
+	#footer .flickrImages a {
+		margin-right: 20px;
+	}
+	#footer .flickrImages a:nth-of-type(2n) {
+		margin-right: 20px;
+	}
+	.flickrImages a:nth-of-type(3n) {
+		margin-right: 20px;
+	}
+	.camera_caption {
+		display: none !important;
+	}
+	#widget-footer {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#widget-footer #carousel-cycle-blog {
+		text-align: center;
+	}
+	#footer .post-cycle > div .featured-thumbnail {
+	float: none;
+	margin: 0 auto 15px;
+	max-width: 270px;
+	}
+	.camera_prev, .camera_next {
+		display: none;
+	}
+	.camera_wrap .camera_pag {
+		display: block;
+	}
+	#footer-text {
+		text-align: center;
+	}
+	#copyright .social-networks {
+		float: none;
+		display: block;
+		width: 235px;
+		margin: 15px auto 0;
+	}
+	.post-cycle .item-testimonial {
+				height: 180px;
+	}
+	#carousel-portfolio .es-carousel ul li {
+		width: 220px !important;
+		margin-right: 20px !important;
+	}
+	.recent_works li {
+		max-width: 43% !important;
+	}
+	.img_shadow { 
+		background: none;
+		padding: 0;
+	}
+	.recent-posts.team li {width: 42%;}
+	#slider-wrapper { 
+		min-height: 100px;
+	}
+}

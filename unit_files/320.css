@@ -1,0 +1,83 @@
+/*  #Mobile (Portrait)
+================================================== */
+/* Note: Design for a width of 320px */
+
+@media screen and (max-width: 479px) {
+
+	/* Here your style */
+
+	.logo {text-align: center !important;}
+	#contentload {
+		left:0px;
+	}
+	#contentload .team .featured-thumbnail {
+		float: none;
+	}
+	.banner-block p {
+		margin: 0 0 20px;
+	}
+	#back-top-wrapper {
+		display: none;
+	}
+	.banner-block .btn {
+		float: none;
+	}
+	#footer .post-cycle {
+		min-height: 230px;
+	}
+	.es-carousel ul li {margin-bottom: 20px; overflow: hidden;}
+	#carousel-blog .es-carousel ul li .meta, #carousel-blog .es-carousel ul li .meta {
+		display: none;
+	}
+	#carousel-portfolio .es-carousel ul li .meta .perma-link, #carousel-portfolio .es-carousel ul li .meta .zoom-link {
+		display: none;
+	}
+	.spacer {
+		height: 25px;
+	}
+	.es-nav span {
+		top: 38px;
+	}
+	.es-nav span.es-nav-prev {
+		left: 20px;
+	}
+	.es-nav span.es-nav-next {
+		right: 20px;
+	}
+	#footer .flickrImages a, .flickrImages a, .flickrImages a:nth-of-type(3n) {
+		margin: 10px 10px;
+	}
+	.camera_caption {
+		display: none !important;
+	}
+	.camera_prev, .camera_next {
+		display: none;
+	}
+	.camera_wrap .camera_pag {
+		display: block;
+	}
+	#footer-text {
+		text-align: center;
+	}
+	#copyright .social-networks {
+		float: none;
+		display: block;
+		width: 235px;
+		margin: 15px auto 0;
+	}
+	.img_shadow { 
+		background: none;
+		padding: 0;
+	}
+	.recent-posts.team li {width: 100%;}
+	.gallery_post .g_item {
+		min-height: 100px;
+	}	
+	.commentlist ul.children {
+		margin: 0 0 0 20px;
+	}
+	#slider-wrapper { 
+		min-height: 100px;
+	}
+	
+}
